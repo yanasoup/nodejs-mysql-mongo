@@ -1,8 +1,9 @@
 const mongoose = require('mongoose');
 const server = "localhost";
-const database = "customer";
-const user = "customerAdmin";
-const password = "customerAdmin";
+const database = "denormal_transaction";
+const user = "user";
+const password = "123123123";
+
 
 mongoose.connect(`mongodb://${user}:${password}@${server}/${database}`);
 
