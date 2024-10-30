@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 const server = "localhost";
 const database = "denormal_transaction";
-const user = "upoint";
-const password = "4luckyd4y";
+const user = "user";
+const password = "123123123";
 
 //mongoose.set('debug', true);
 mongoose.connect(`mongodb://${user}:${password}@${server}/${database}`, { useCreateIndex: true });
